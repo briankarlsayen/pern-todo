@@ -1,5 +1,4 @@
-const Pool = require('pg').Pool;
-
+import { Pool } from "pg"
 const pool = new Pool({
   user: "postgres",
   host: "localhost",
@@ -7,4 +6,4 @@ const pool = new Pool({
   database: "perntodo"
 })
 
-module.exports = pool;
+export default pool;

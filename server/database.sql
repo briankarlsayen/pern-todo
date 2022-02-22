@@ -1,3 +1,4 @@
+// dont forget ";"
 
 -- create a database
 CREATE DATABASE perntodo;
